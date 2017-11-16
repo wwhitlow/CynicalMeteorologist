@@ -5,7 +5,7 @@ import os
 
 API_TOKEN = os.environ["API_TOKEN"]
 
-url = 'http://api.wunderground.com/api/'+ API_TOKEN + '/forecast/q/GA/Atlanta.json'
+url = 'http://api.wunderground.com/api/'+ API_TOKEN + '/hourly/q/GA/Atlanta.json'
 headers = {'Accept': 'application/json'}
 response = requests.get(url, headers=headers)
 
