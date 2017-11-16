@@ -1,3 +1,4 @@
 dataCollectingScript.sh
 collectedFile.txt
 collectedData/
+forecastCollectingSript.sh
