@@ -11,4 +11,6 @@ Jan2018.tar.gz
 Jan2018/
 Nov2017.tar.gz
 Nov2017/
-forecastCollectingScript.sh
+dataMonths/
+plotTest.py
+processing.py
