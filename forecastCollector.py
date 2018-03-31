@@ -10,12 +10,12 @@ headers = {'Accept': 'application/json'}
 response = requests.get(url, headers=headers)
 
 
-filename = str(datetime.datetime.today().strftime('%b-%d-%Y:%H')) + '.json'
+filename = str(datetime.datetime.today().strftime('%b-%d-%Y:%H:%M')) + '.json'
 
-with open('collectedFile.txt', 'a') as dataList:
+with open('/home/wwhitlow/CynicalMeteorologist/collectedFile.txt', 'a') as dataList:
     dataList.write(filename)
     dataList.write('\n')
 
-with open('collectedData/'+filename, 'w') as outf:
+with open('/home/wwhitlow/CynicalMeteorologist/collectedData/'+filename, 'w') as outf:
     outf.write(response.content)
 

@@ -2,3 +2,13 @@ dataCollectingScript.sh
 collectedFile.txt
 collectedData/
 forecastCollectingSript.sh
+.regularForecastCollectedFilesProbablyNotAsUseful.txt
+Dec2017.tar.gz
+Dec2017/
+Feb2018.tar.gz
+Feb2018/
+Jan2018.tar.gz
+Jan2018/
+Nov2017.tar.gz
+Nov2017/
+forecastCollectingScript.sh
